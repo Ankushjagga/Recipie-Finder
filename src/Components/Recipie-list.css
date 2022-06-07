@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.recpielist{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 3px 10px 0 #aaa;
+    width: 260px;
+  
+}
+img{
+    height: 200px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+.ingridentText{
+    font-size: 18px;
+    border: 1px solid green;
+    color: black;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: green;
+    text-align: center;
+}
+.seemore{
+    font-size: 18px;
+    border: 1px solid #eb3300;
+    color: black;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #eb3300;
+    text-align: center;
+}
+td{
+    text-align: left;
+    height: 25px;
+}
+th,td{
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.label{
+    font-weight: bold;
+    font-size: 20px;
+}
+tr:nth-child(odd) {background-color: #f2f2f2;}
